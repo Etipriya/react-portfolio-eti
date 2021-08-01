@@ -18,144 +18,126 @@ function Projects(props) {
         {/* Project 1 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images} alt="First slide" />
-          <Carousel.Caption>
-            <h3>Geo-Link</h3>
-            <a
-              href="https://ivnkris.github.io/geo-link/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+
+          <h3>Geo-Link</h3>
+          <a
+            href="https://ivnkris.github.io/geo-link/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 2 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images2} alt="Second slide" />
-
-          <Carousel.Caption>
-            <h3>Tri-via-hub</h3>
-            <a
-              href="https://github.com/Etipriya/tri-via-hub"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Tri-via-hub</h3>
+          <a
+            href="https://github.com/Etipriya/tri-via-hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 3 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images3} alt="Third slide" />
 
-          <Carousel.Caption>
-            <h3>Workout Tracker</h3>
-            <a
-              href="https://github.com/Etipriya/workout-tracker"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Workout Tracker</h3>
+          <a
+            href="https://github.com/Etipriya/workout-tracker"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 4 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images4} alt="Fourth slide" />
 
-          <Carousel.Caption>
-            <h3>Note Taker</h3>
-            <a
-              href="https://github.com/Etipriya/note-taker"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Note Taker</h3>
+          <a
+            href="https://github.com/Etipriya/note-taker"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 5 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images5} alt="Fifth slide" />
 
-          <Carousel.Caption>
-            <h3>Tech Blog</h3>
-            <a
-              href="https://github.com/Etipriya/tech-blog"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Tech Blog</h3>
+          <a
+            href="https://github.com/Etipriya/tech-blog"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 6 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images6} alt="Sixth slide" />
 
-          <Carousel.Caption>
-            <h3>Code Quiz</h3>
-            <a
-              href="https://github.com/Etipriya/code_quiz"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Code Quiz</h3>
+          <a
+            href="https://github.com/Etipriya/code_quiz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 7 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images7} alt="Seventh slide" />
 
-          <Carousel.Caption>
-            <h3>Weather Dashboard</h3>
-            <a
-              href="https://github.com/Etipriya/weather-dashboard"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Weather Dashboard</h3>
+          <a
+            href="https://github.com/Etipriya/weather-dashboard"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 8 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images8} alt="Eighth slide" />
 
-          <Carousel.Caption>
-            <h3>Budget Tracker</h3>
-            <a
-              href="https://github.com/Etipriya/budget-tracker"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Budget Tracker</h3>
+          <a
+            href="https://github.com/Etipriya/budget-tracker"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
 
         {/* Project 9 */}
         <Carousel.Item>
           <img className="d-block w-100" src={images9} alt="Ninth slide" />
 
-          <Carousel.Caption>
-            <h3>Password Generator</h3>
-            <a
-              href="https://github.com/Etipriya/password_generator"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deployed Link
-            </a>
-          </Carousel.Caption>
+          <h3>Password Generator</h3>
+          <a
+            href="https://github.com/Etipriya/password_generator"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed Link
+          </a>
         </Carousel.Item>
       </Carousel>
     </Container>
