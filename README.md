@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# React Portfolio
+
+## Screenshots
+
+## Github Link
+
+https://github.com/Etipriya/react-portfolio-eti
+
+## Deployed Link
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
