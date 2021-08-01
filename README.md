@@ -39,4 +39,4 @@ https://github.com/Etipriya/react-portfolio-eti
 
 ## Deployed Link
 
-https://github.com/Etipriya/react-portfolio-eti
+https://etipriya.github.io/react-portfolio-eti/
