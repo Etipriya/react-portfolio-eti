@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function NavbarComponent() {
   return (
@@ -8,18 +8,21 @@ function NavbarComponent() {
       <Container>
         <Navbar.Brand href="#home">Eti Priya</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link>
-            <Link to="/">Home</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="/About">About</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="/Projects">Projects</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="/Contact">Contact</Link>
-          </Nav.Link>
+          <div className="mr-4">
+            <a href="#Home">Home</a>
+          </div>
+
+          <div className="mr-4">
+            <a href="#About">About</a>
+          </div>
+
+          <div className="mr-4">
+            <a href="#Projects">Projects</a>
+          </div>
+
+          <div className="mr-4">
+            <a href="#Contact">Contact</a>
+          </div>
         </Nav>
       </Container>
     </Navbar>

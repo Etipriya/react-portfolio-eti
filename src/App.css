@@ -2,3 +2,7 @@
   text-align: center;
   background-color: rgba(145, 3, 57, 0.692);
 }
+
+.mr-4 {
+  margin-right: 10px;
+}

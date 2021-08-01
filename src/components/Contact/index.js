@@ -5,7 +5,7 @@ import Resume from "../../assets/etipriya-cv.pdf";
 
 function ContactForm() {
   return (
-    <Container className="my-3 py-3">
+    <Container className="my-3 py-3" id="Contact">
       <section>
         <h1 data-testid="h1tag" className="contact">
           Contact Me

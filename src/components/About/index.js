@@ -4,7 +4,7 @@ import img from "../../assets/images/eti_pic.jpg";
 
 function About() {
   return (
-    <Container className="my-3 py-3">
+    <Container className="my-3 py-3" id="About">
       <Card>
         <Card.Title>Eti Priya</Card.Title>
         <Row>

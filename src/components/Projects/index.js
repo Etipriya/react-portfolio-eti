@@ -13,7 +13,7 @@ import images9 from "../../assets/images/password-home.png";
 
 function Projects(props) {
   return (
-    <Container className="my-3 py-3">
+    <Container className="my-3 py-3" id="Projects">
       <Carousel>
         {/* Project 1 */}
         <Carousel.Item>
