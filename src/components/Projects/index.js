@@ -1,6 +1,15 @@
 import React from "react";
 import { Carousel, Container } from "react-bootstrap";
-import images from "../../assets/images/home-page (2).png";
+
+import images from "../../assets/images/geo-homepage.png";
+import images2 from "../../assets/images/tri-home.png";
+import images3 from "../../assets/images/fitness-tracker-home.png";
+import images4 from "../../assets/images/note-home.png";
+import images5 from "../../assets/images/tech-home.png";
+import images6 from "../../assets/images/code-home.png";
+import images7 from "../../assets/images/weather-home.png";
+import images8 from "../../assets/images/budget-tracker-home.png";
+import images9 from "../../assets/images/password-home.png";
 
 function Projects(props) {
   return (
@@ -29,7 +38,7 @@ function Projects(props) {
 
         {/* Project 2 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Second slide" />
+          <img className="d-block w-100" src={images2} alt="Second slide" />
 
           <Carousel.Caption>
             <h3>Tri-via-hub</h3>
@@ -53,7 +62,7 @@ function Projects(props) {
 
         {/* Project 3 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Third slide" />
+          <img className="d-block w-100" src={images3} alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Workout Tracker</h3>
@@ -79,7 +88,7 @@ function Projects(props) {
 
         {/* Project 4 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Fourth slide" />
+          <img className="d-block w-100" src={images4} alt="Fourth slide" />
 
           <Carousel.Caption>
             <h3>Note Taker</h3>
@@ -101,7 +110,7 @@ function Projects(props) {
 
         {/* Project 5 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Fifth slide" />
+          <img className="d-block w-100" src={images5} alt="Fifth slide" />
 
           <Carousel.Caption>
             <h3>Tech Blog</h3>
@@ -123,7 +132,7 @@ function Projects(props) {
 
         {/* Project 6 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Sixth slide" />
+          <img className="d-block w-100" src={images6} alt="Sixth slide" />
 
           <Carousel.Caption>
             <h3>Code Quiz</h3>
@@ -147,7 +156,7 @@ function Projects(props) {
 
         {/* Project 7 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Seventh slide" />
+          <img className="d-block w-100" src={images7} alt="Seventh slide" />
 
           <Carousel.Caption>
             <h3>Weather Dashboard</h3>
@@ -173,7 +182,7 @@ function Projects(props) {
 
         {/* Project 8 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Eighth slide" />
+          <img className="d-block w-100" src={images8} alt="Eighth slide" />
 
           <Carousel.Caption>
             <h3>Budget Tracker</h3>
@@ -197,7 +206,7 @@ function Projects(props) {
 
         {/* Project 9 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="Ninth slide" />
+          <img className="d-block w-100" src={images9} alt="Ninth slide" />
 
           <Carousel.Caption>
             <h3>Password Generator</h3>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
-import img from "../../assets/images/eti_pic.jpg";
+import img from "../../assets/etipriya-cv.pdf";
 
 function About() {
   return (
