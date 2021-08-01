@@ -15,10 +15,10 @@ function NavbarComponent() {
             <Link to="/About">About Me</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/Projects">My Projects</Link>
+            <Link to="/Projects">Projects</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/Contact">Contact Me</Link>
+            <Link to="/Contact">Contact</Link>
           </Nav.Link>
         </Nav>
       </Container>
