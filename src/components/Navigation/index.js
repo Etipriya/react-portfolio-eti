@@ -12,7 +12,7 @@ function NavbarComponent() {
             <Link to="/">Home</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/About">About Me</Link>
+            <Link to="/About">About</Link>
           </Nav.Link>
           <Nav.Link>
             <Link to="/Projects">Projects</Link>
