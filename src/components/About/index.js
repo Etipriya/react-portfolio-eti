@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
 import img from "../../assets/images/eti_pic.jpg";
 
-function About() {
+const About = () => {
   return (
     <Container className="my-3 py-3" id="About">
       <Card>
@@ -31,6 +31,6 @@ function About() {
       </Card>
     </Container>
   );
-}
+};
 
 export default About;
