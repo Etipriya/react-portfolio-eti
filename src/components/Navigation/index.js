@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import { Link } from "react-router-dom";
 
 function NavbarComponent() {
   return (
