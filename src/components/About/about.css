@@ -1,0 +1,12 @@
+/* .navbar {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+} */
+.about-link {
+  padding: 3px;
+  margin-left: 95px;
+  background-color: rgba(145, 3, 57, 0.692);
+  color: burlywood;
+  font-size: large;
+}
