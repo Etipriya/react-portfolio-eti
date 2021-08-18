@@ -13,6 +13,10 @@ In react portfolio
 - Contact details: This sections contains my linkedIn, github, email and resume link. They are accessible on single click.
 - Footer: It has a copyright section in it.
 
+![image](./src/assets/images/home-portfolio.png)
+
+![image](./src/assets/images/projects.png)
+
 Various projects added on are:
 
 ![image](./src/assets/images/budget-tracker-home.png)
