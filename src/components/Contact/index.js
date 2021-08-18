@@ -2,6 +2,7 @@ import React from "react";
 
 import { Row, Col, Container } from "react-bootstrap";
 import Resume from "../../assets/etipriya-cv.pdf";
+import "./contact.css";
 
 function ContactForm() {
   return (
@@ -12,7 +13,7 @@ function ContactForm() {
         </h1> */}
 
       <div className="contact-icons">
-        <Row>
+        <Row className="contact-form">
           <Col lg={3} md={3}>
             <a href="https://github.com/Etipriya">
               <img

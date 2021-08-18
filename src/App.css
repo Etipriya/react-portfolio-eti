@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  height: 100vh;
   background-color: rgba(145, 3, 57, 0.692);
+  background-size: cover;
+  background-position: center;
 }
 
 .mr-4 {

@@ -17,12 +17,10 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <Router basename="/">
+      <Router>
         <Navigation />
-        {/* <Switch> */}
         <Routes />
         <Footer />
-        {/* </Switch> */}
       </Router>
     </div>
   );

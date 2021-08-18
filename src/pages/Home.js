@@ -1,7 +1,7 @@
 // import Header from "../components/Header";
 
 import About from "../components/About";
-import Projects from "../components/Projects";
+// import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       {/* <Header /> */}
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
     </div>
   );
