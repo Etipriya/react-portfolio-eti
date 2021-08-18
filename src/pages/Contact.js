@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import Contact from "../../components/Contact";
+import Contact from "../components/Contact";
 
 const ContactContainer = () => {
   return (
