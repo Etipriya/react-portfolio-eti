@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Container } from "react-bootstrap";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import images from "../../assets/images/geo-homepage.png";
 import images2 from "../../assets/images/tri-home.png";
 import images3 from "../../assets/images/fitness-tracker-home.png";
@@ -14,10 +14,10 @@ import images9 from "../../assets/images/password-home.png";
 function Projects(props) {
   return (
     <Container className="my-3 py-3" id="Projects">
-      <Carousel>
+      <Carousel variant="dark">
         {/* Project 1 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images} alt="First slide" />
+          <img className="d-block" src={images} alt="First slide" />
 
           <h3>Geo-Link</h3>
           <a
@@ -31,7 +31,7 @@ function Projects(props) {
 
         {/* Project 2 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images2} alt="Second slide" />
+          <img className="d-block" src={images2} alt="Second slide" />
           <h3>Tri-via-hub</h3>
           <a
             href="https://github.com/Etipriya/tri-via-hub"
@@ -44,7 +44,7 @@ function Projects(props) {
 
         {/* Project 3 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images3} alt="Third slide" />
+          <img className="d-block" src={images3} alt="Third slide" />
 
           <h3>Workout Tracker</h3>
           <a
@@ -58,7 +58,7 @@ function Projects(props) {
 
         {/* Project 4 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images4} alt="Fourth slide" />
+          <img className="d-block" src={images4} alt="Fourth slide" />
 
           <h3>Note Taker</h3>
           <a
@@ -72,7 +72,7 @@ function Projects(props) {
 
         {/* Project 5 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images5} alt="Fifth slide" />
+          <img className="d-block" src={images5} alt="Fifth slide" />
 
           <h3>Tech Blog</h3>
           <a
@@ -86,7 +86,7 @@ function Projects(props) {
 
         {/* Project 6 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images6} alt="Sixth slide" />
+          <img className="d-block" src={images6} alt="Sixth slide" />
 
           <h3>Code Quiz</h3>
           <a
@@ -100,7 +100,7 @@ function Projects(props) {
 
         {/* Project 7 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images7} alt="Seventh slide" />
+          <img className="d-block" src={images7} alt="Seventh slide" />
 
           <h3>Weather Dashboard</h3>
           <a
@@ -114,7 +114,7 @@ function Projects(props) {
 
         {/* Project 8 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images8} alt="Eighth slide" />
+          <img className="d-block" src={images8} alt="Eighth slide" />
 
           <h3>Budget Tracker</h3>
           <a
@@ -128,7 +128,7 @@ function Projects(props) {
 
         {/* Project 9 */}
         <Carousel.Item>
-          <img className="d-block w-100" src={images9} alt="Ninth slide" />
+          <img className="d-block" src={images9} alt="Ninth slide" />
 
           <h3>Password Generator</h3>
           <a

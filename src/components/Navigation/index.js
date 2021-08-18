@@ -16,13 +16,13 @@ function NavbarComponent() {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               to="/About"
               className="nav-link"
               style={{ color: "inherit", textDecoration: "inherit" }}
             >
               About
-            </Link>
+            </Link> */}
             <Link
               to="/Projects"
               className="nav-link"
@@ -30,13 +30,13 @@ function NavbarComponent() {
             >
               Projects
             </Link>
-            <Link
+            {/* <Link
               to="/Contact"
               className="nav-link"
               style={{ color: "inherit", textDecoration: "inherit" }}
             >
               Contact
-            </Link>
+            </Link> */}
           </Nav>
         </Container>
       </Navbar>

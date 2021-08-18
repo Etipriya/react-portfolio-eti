@@ -6,9 +6,9 @@ import "./about.css";
 const About = () => {
   return (
     <Container className="my-3 py-3" id="About">
-      <Card>
+      <Card id="about-card">
         <Card.Title>Eti Priya</Card.Title>
-        <Row>
+        <Row className="about-me">
           <Col>
             <Image src={img} rounded />
           </Col>

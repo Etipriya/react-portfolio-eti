@@ -10,3 +10,14 @@
   color: burlywood;
   font-size: large;
 }
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+#about {
+  background-color: rgba(145, 3, 57, 0.692);
+}
+#about-card {
+  background-color: burlywood;
+}
