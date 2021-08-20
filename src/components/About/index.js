@@ -23,7 +23,7 @@ const About = () => {
                 databases and languages like HTML, CSS, JavaScript, JQuery,
                 Node.JS, SQL, Handlebars, Express and React.
               </Card.Text>
-              <Card.Link
+              {/* <Card.Link
                 className="about-link"
                 href="#"
                 style={{ color: "inherit", textDecoration: "inherit" }}
@@ -43,7 +43,7 @@ const About = () => {
                 style={{ color: "inherit", textDecoration: "inherit" }}
               >
                 Resume
-              </Card.Link>
+              </Card.Link> */}
             </Card.Body>
           </Col>
         </Row>
