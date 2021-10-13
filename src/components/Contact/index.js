@@ -7,11 +7,6 @@ import "./contact.css";
 function ContactForm() {
   return (
     <Container className="my-3 py-3" id="Contact">
-      {/* <section> */}
-      {/* <h1 data-testid="h1tag" className="contact">
-          Contact Me
-        </h1> */}
-
       <div className="contact-icons">
         <Row className="contact-form">
           <Col lg={3} md={3}>
@@ -22,7 +17,7 @@ function ContactForm() {
                 className="icon"
               />
             </a>
-            <p className="icon-text">github</p>
+            <p className="icon-text">https://github.com/Etipriya</p>
           </Col>
 
           <Col lg={3} md={3}>
@@ -33,7 +28,9 @@ function ContactForm() {
                 className="icon"
               />
             </a>
-            <p className="icon-text">linkedin</p>
+            <p className="icon-text">
+              https://www.linkedin.com/in/eti-priya-mahendru/
+            </p>
           </Col>
 
           <Col lg={3} md={3}>
@@ -43,7 +40,7 @@ function ContactForm() {
                 alt="mail-logo"
               />
             </a>
-            <p className="icon-text">email</p>
+            <p className="icon-text">etipriya@gmail.com</p>
           </Col>
 
           <Col lg={3} md={3}>
@@ -57,7 +54,6 @@ function ContactForm() {
           </Col>
         </Row>
       </div>
-      {/* </section> */}
     </Container>
   );
 }
